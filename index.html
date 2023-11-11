@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>hf5 Application Web</title>
+  <link rel="icon" type="image/png" href="img/unilim.png" />
+
+
+  <link rel="stylesheet" type="text/css" href="vendor/components/normalize.css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+  <link rel='stylesheet' type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="web/css/main.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <form class="col-md-3 leftbox">
+
+        <h4>Paramétrage des courbes</h4>
+        <br />
+
+        <div class="scroll-box">
+
+          <h5>Points expérimentaux</h5>
+
+          <ul class="list-unstyled">
+            <li>Axe x <span class="xSize label label-info">288 valeurs</span> <textarea class="form-control textarea-points xUser"  name="textarea">0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+2.7
+2.8
+2.9
+3
+3.1
+3.2
+3.3
+3.4
+3.5
+3.6
+3.7
+3.8
+3.9
+4
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+5
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+6
+6.1
+6.2
+6.3
+6.4
+6.5
+6.6
+6.7
+6.8
+6.9
+7
+7.1
+7.2
+7.3
+7.4
+7.5
+7.6
+7.7
+7.8
+7.9
+8
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+8.7
+8.8
+8.9
+9
+9.1
+9.2
+9.3
+9.4
+9.5
+9.6
+9.7
+9.8
+9.9
+10
+10.1
+10.2
+10.3
+10.4
+10.5
+10.6
+10.7
+10.8
+10.9
+11
+11.1
+11.2
+11.3
+11.4
+11.5
+11.6
+11.7
+11.8
+11.9
+12
+12.1
+12.2
+12.3
+12.4
+12.5
+12.6
+12.7
+12.8
+12.9
+13
+13.1
+13.2
+13.3
+13.4
+13.5
+13.6
+13.7
+13.8
+13.9
+14
+14.1
+14.2
+14.3
+14.4
+14.5
+14.6
+14.7
+14.8
+14.9
+15
+15.1
+15.2
+15.3
+15.4
+15.5
+15.6
+15.7
+15.8
+15.9
+16
+16.1
+16.2
+16.3
+16.4
+16.5
+16.6
+16.7
+16.8
+16.9
+17
+17.1
+17.2
+17.3
+17.4
+17.5
+17.6
+17.7
+17.8
+17.9
+18
+18.1
+18.2
+18.3
+18.4
+18.5
+18.6
+18.7
+18.8
+18.9
+19
+19.1
+19.2
+19.3
+19.4
+19.5
+19.6
+19.7
+19.8
+19.9
+20
+20.1
+20.2
+20.3
+20.4
+20.5
+20.6
+20.7
+20.8
+20.9
+21
+21.1
+21.2
+21.3
+21.4
+21.5
+21.6
+21.7
+21.8
+21.9
+22
+22.1
+22.2
+22.3
+22.4
+22.5
+22.6
+22.7
+22.8
+22.9
+23
+23.1
+23.2
+23.3
+23.4
+23.5
+23.6
+23.7
+23.8
+23.9
+24
+24.1
+24.2
+24.3
+24.4
+24.5
+24.6
+24.7
+24.8
+24.9
+25
+25.1
+25.2
+25.3
+25.4
+25.5
+25.6
+25.7
+25.8
+25.9
+26
+26.1
+26.2
+26.3
+26.4
+26.5
+26.6
+26.7
+26.8
+26.9
+27
+27.1
+27.2
+27.3
+27.4
+27.5
+27.6
+27.7
+27.8
+27.9
+28
+28.1
+28.2
+28.3
+28.4
+28.5
+28.6
+28.7</textarea> </li>
+
+            <li>Axe y <span class="ySize label label-info">288 valeurs</span>
+            <textarea class="form-control textarea-points yUser"  name="textarea">0
+0
+0
+0.00346020761246
+0.00346020761246
+0.00692041522491
+0.00692041522491
+0.00692041522491
+0.00346020761246
+0.00346020761246
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0.00346020761246
+0.00346020761246
+0.00346020761246
+0.00692041522491
+0.00692041522491
+0.0103806228374
+0.0103806228374
+0.0138408304498
+0.0207612456747
+0.0242214532872
+0.0311418685121
+0.0415224913495
+0.0484429065744
+0.0657439446367
+0.076124567474
+0.0934256055363
+0.114186851211
+0.138408304498
+0.16955017301
+0.200692041522
+0.235294117647
+0.276816608997
+0.328719723183
+0.384083044983
+0.446366782007
+0.501730103806
+0.56401384083
+0.61937716263
+0.681660899654
+0.743944636678
+0.806228373702
+0.861591695502
+0.910034602076
+0.944636678201
+0.965397923875
+0.98615916955
+0.996539792388
+1
+0.996539792388
+0.982698961938
+0.955017301038
+0.920415224913
+0.878892733564
+0.837370242215
+0.806228373702
+0.764705882353
+0.723183391003
+0.685121107266
+0.647058823529
+0.608996539792
+0.574394463668
+0.553633217993
+0.536332179931
+0.522491349481
+0.508650519031
+0.501730103806
+0.494809688581
+0.491349480969
+0.491349480969
+0.494809688581
+0.498269896194
+0.512110726644
+0.515570934256
+0.522491349481
+0.522491349481
+0.525951557093
+0.529411764706
+0.532871972318
+0.539792387543
+0.543252595156
+0.543252595156
+0.539792387543
+0.532871972318
+0.529411764706
+0.522491349481
+0.519031141869
+0.515570934256
+0.508650519031
+0.501730103806
+0.494809688581
+0.470588235294
+0.463667820069
+0.456747404844
+0.449826989619
+0.446366782007
+0.43598615917
+0.425605536332
+0.42214532872
+0.415224913495
+0.411764705882
+0.411764705882
+0.401384083045
+0.39446366782
+0.384083044983
+0.373702422145
+0.363321799308
+0.356401384083
+0.349480968858
+0.346020761246
+0.335640138408
+0.328719723183
+0.318339100346
+0.307958477509
+0.301038062284
+0.294117647059
+0.290657439446
+0.283737024221
+0.276816608997
+0.273356401384
+0.266435986159
+0.262975778547
+0.259515570934
+0.252595155709
+0.252595155709
+0.245674740484
+0.245674740484
+0.242214532872
+0.235294117647
+0.235294117647
+0.235294117647
+0.231833910035
+0.228373702422
+0.228373702422
+0.228373702422
+0.221453287197
+0.214532871972
+0.214532871972
+0.214532871972
+0.214532871972
+0.214532871972
+0.21107266436
+0.21107266436
+0.204152249135
+0.200692041522
+0.200692041522
+0.19723183391
+0.19723183391
+0.19723183391
+0.193771626298
+0.190311418685
+0.186851211073
+0.186851211073
+0.186851211073
+0.186851211073
+0.186851211073
+0.18339100346
+0.179930795848
+0.176470588235
+0.176470588235
+0.176470588235
+0.173010380623
+0.173010380623
+0.173010380623
+0.16955017301
+0.166089965398
+0.162629757785
+0.162629757785
+0.159169550173
+0.159169550173
+0.159169550173
+0.159169550173
+0.155709342561
+0.152249134948
+0.152249134948
+0.148788927336
+0.148788927336
+0.145328719723
+0.145328719723
+0.145328719723
+0.145328719723
+0.141868512111
+0.138408304498
+0.138408304498
+0.138408304498
+0.138408304498
+0.141868512111
+0.141868512111
+0.138408304498
+0.134948096886
+0.134948096886
+0.131487889273
+0.131487889273
+0.131487889273
+0.128027681661
+0.131487889273
+0.128027681661
+0.128027681661
+0.128027681661
+0.124567474048
+0.124567474048
+0.124567474048
+0.121107266436
+0.121107266436
+0.117647058824
+0.121107266436
+0.121107266436
+0.121107266436
+0.117647058824
+0.114186851211
+0.114186851211
+0.110726643599
+0.110726643599
+0.114186851211
+0.114186851211
+0.110726643599
+0.107266435986
+0.103806228374
+0.103806228374
+0.103806228374
+0.107266435986
+0.103806228374
+0.103806228374
+0.100346020761
+0.100346020761
+0.100346020761
+0.0968858131488
+0.0968858131488
+0.0968858131488
+0.100346020761
+0.0968858131488
+0.0968858131488
+0.0934256055363
+0.0934256055363
+0.0899653979239
+0.0899653979239
+0.0899653979239
+0.0934256055363
+0.0865051903114
+0.0865051903114
+0.083044982699
+0.083044982699
+0.083044982699
+0.0865051903114
+0.0865051903114
+0.0795847750865
+0.0795847750865
+0.076124567474
+0.076124567474
+0.076124567474
+0.076124567474
+0.076124567474
+0.0795847750865
+0.076124567474
+0.0726643598616
+0.0726643598616
+0.0726643598616
+0.076124567474
+0.076124567474
+0.0726643598616
+0.0726643598616
+0.0692041522491
+0.0692041522491
+0.0622837370242
+0.0657439446367
+0.0657439446367
+0.0657439446367
+0.0692041522491
+0.0657439446367
+0.0622837370242
+0.0622837370242
+</textarea> </li>
+          </ul>
+
+          <br />
+
+          <h5>Courbes théoriques </h5>
+
+          <ul class="list-unstyled">
+
+            <li class="curvesum">
+              <label class="checkbox">
+                <input type="checkbox" class="curvesum-input" checked="true">
+                <span class="check"></span>
+                Somme des courbes théoriques
+              </label>
+            </li>
+
+            <li class="curvesum coeffCheck">
+              <label class="checkbox">
+                <input type="checkbox" class="algoCoeff-input">
+                <span class="check"></span>
+                Ajouter le coefficient algorithmique
+              </label>
+            </li>
+
+            <span class="default-curve">
+
+                <li>
+                  <button type="button" id="1" class="remove-button">
+                  <span class="glyphicon glyphicon-trash"aria-hidden="true"></span>
+                  </button>
+                  <input type="text" class="curve-title-input" value="Monomère">
+                  σ <input type="number" min="0" step="0.1" class="curve-parameter-input sigmaChange" value="1">
+                  tc <input type="number" min="0" step="0.1" class="curve-parameter-input tcChange" value="6.6">
+                </li>
+
+                <li>
+                  <button type="button" id="2" class="remove-button">
+                  <span class="glyphicon glyphicon-trash"aria-hidden="true"></span>
+                  </button>
+                  <input type="text" class="curve-title-input" value="Dimère">
+                  σ <input type="number" min="0" step="0.1" class="curve-parameter-input sigmaChange" value="2">
+                  tc <input type="number" min="0" step="0.1" class="curve-parameter-input tcChange" value="9.8">
+                </li>
+
+                <li>
+                  <button type="button" id="3" class="remove-button">
+                  <span class="glyphicon glyphicon-trash"aria-hidden="true"></span>
+                  </button>
+                  <input type="text" class="curve-title-input" value="Trimère">
+                  σ <input type="number" min="0" step="0.1" class="curve-parameter-input sigmaChange" value="2">
+                  tc <input type="number" min="0" step="0.1" class="curve-parameter-input tcChange" value="13.25">
+                </li>
+
+
+            </span>
+
+            <span class="user-curve">
+            </span>
+
+            <li>
+              <button type="button" data-toggle="modal" data-target=".add-curve-modal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Rajouter une courbe</button>
+            </li>
+
+            <div id="myModal" class="modal fade add-curve-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+              <div  class="modal-dialog modal-sm">
+                <div class="modal-content add-curve-box">
+                  <h5>Rajoutez une courbe</h5>
+                  <hr />
+                  <input class="curve-title-input-modal" type="text" id="curveName" placeholder="Nom de votre courbe"> <br />
+                  <input class="curve-parameter-input-modal" type="text" id="curveSigma" placeholder="Sigma">
+                  <input class="curve-parameter-input-modal" type="text" id="curveTc" placeholder="TC">
+                  <button id="add-curve-button" type="button" class="submit-button" data-dismiss="modal" aria-label="Close">Rajouter la courbe</button>
+                  <br />
+                </div>
+              </div>
+            </div>
+
+          </ul>
+
+          <p class="credits"><a href="http://adrienchkirate.com/" target="_blank">Adrien Chkirate</a> - Université de Limoges</p>
+
+        </div>
+
+      </form>
+
+    <div class="col-md-9 graphicbox">
+
+      <div id="container">
+      </div>
+
+      <div class="statsbox">
+
+          <h5>Statistiques des courbes</h5>
+
+        <div class="row" style="padding-bottom: 0; margin-bottom: 0;">
+          <p class="col-md-6">Erreur moyenne théorique/expérimental : <span class="avgError label label-danger">0.193</span></p>
+          <p class="col-md-6">Erreur maximum théorique/expérimental : <span class="maxError label label-danger">0.605</span></p>
+        </div>
+
+      <p class="download-text" style="padding-top: 0;">
+
+        <button type="button" class="submit-button downloadPoint">Télécharger les données des points <span class="glyphicon glyphicon-save" aria-hidden="true"></span></button>
+        <a href="https://github.com/LexAdrim/hf5" target="_blank" class="submit-button">Voir le code source <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span></a>
+
+
+        <br />
+        <span class="label label-primary totalPoint">864</span> points générés pour <span class="label label-primary totalCurve">3</span> courbes
+
+      </p>
+
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+  <script src="vendor/components/jquery/jquery.min.js"></script>
+  <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vendor/kwizer15/highcharts/highcharts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.8.1/math.js"></script>
+
+  <script src="web/js/core.js"></script>
+  <script src="web/js/event.js"></script>
+  <script src="web/js/highcharts-theme.js"></script>
+  <script src="web/js/graph.js"></script>
+
+</body>
+</html>
